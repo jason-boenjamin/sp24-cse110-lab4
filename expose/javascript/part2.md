@@ -64,9 +64,15 @@
    F. true a boolean of a non-zero number returns true so true is === true  
 
 15. Explain the difference between the == and === operators
+== is the equality operator and checks for equality AFTER performing type conversion, if necessary. On the other hand, === is the strict equality operators. === checks for equality without performing type conversions. If two values are of different types, the result is automatically false.
 
+16. Located in part2-question16.js
+    
+17. a
+    
+18. Located in part2-question19.js
 
-   
+19. The output of the above code is : 
 
 
 
