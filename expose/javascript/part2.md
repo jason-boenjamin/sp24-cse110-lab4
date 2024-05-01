@@ -66,13 +66,20 @@
 15. Explain the difference between the == and === operators
 == is the equality operator and checks for equality AFTER performing type conversion, if necessary. On the other hand, === is the strict equality operators. === checks for equality without performing type conversions. If two values are of different types, the result is automatically false.
 
-16. Located in part2-question16.js
+16. Located in part2-question16.js  
     
-17. a
+17. On line 13, calling ```modifyArray([1,2,3], doSomething);``` will return `[2,4,6]`.  the function `modifyArray` takes in an array and a function. First, the new array is initialized. Then, a for-loop iterates through the length of the original array and calls the given function through `callback` where it cand modify each array element and push it to the new array. Finally, it returns the new array list.  
     
-18. Located in part2-question19.js
+18. Located in part2-question18.js  
 
-19. The output of the above code is : 
+19. The output of the above code is :
+```
+1  
+4  
+3  
+2  
+```
+The console log 1 and 4 are printed immediately, followed by 3 because it must wait an event cycle. Finally, 2 is printed since it had to wait 1000ms or 1 second.
 
 
 
