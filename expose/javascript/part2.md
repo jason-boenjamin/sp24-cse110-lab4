@@ -35,3 +35,43 @@
 
 ### Data Types
 
+12. Given the above Object, write the notation for: (These should be in your part2.md)
+
+   A. student['name'] or student.name  
+   B. student['Grad Year']  
+   C. student['greeting']() or student.greeting()  
+   D. student['Favorite Teacher']['name']  
+   E. student['courseLoad'][0] or student.courseLoad[0]  
+
+13. Arithmetic
+
+    A. '32'  js concatenates the second int input onto the first character  
+    B. 1  js typecasts the '3' to an digit 3 and then subtracts  
+    C. 3  js treats null as a 0 value, so it's just 3 + 0  
+    D. '3null'  js typecasts the null to a string and concatenating it with the '3'  
+    E. 4  js treats true as a 1 value and just adds it to the 3  
+    F. 0  js typecasts false to 0 and null to 0, so it's just 0 + 0  
+    G. '3undefined'  js typecasts undefined to a string 'undefined' and concatenates it with '3'  
+    H. NaN    js cant typecast undefined into a number so it throws an NaN
+
+14. Comparison
+
+   A. true js typecasts the '2' to a digit so it just returns 2>1  
+   B. false js compares the string by unicode so '2' > '12'  
+   C. true js converts '2' to a number so it is checked equally   
+   D. false  js did a strict equality check and 2 is different from '2' in that case  
+   E. false js typecasts true to be 1 and 1 is not equal to 2  
+   F. true a boolean of a non-zero number returns true so true is === true  
+
+15. Explain the difference between the == and === operators
+
+
+   
+
+
+
+
+
+
+
+
